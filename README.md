@@ -2,7 +2,8 @@
 Kodluyoruz ödevi için örnek repo. Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) ve [Patika DEV](https://www.patika.dev) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 Proje görüntüsü
 ![Proje Görüntüsü](https://github.com/yigitsykn/kodluyoruzilkrepo/blob/main/proje-goruntu-2.jpg)
-# Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
+# Installation
+Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
 `console.log("git clone https://github.com/yigitsykn/kodluyoruzilkrepo.git");`
 # Usage
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
