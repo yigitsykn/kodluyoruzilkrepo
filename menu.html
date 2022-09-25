@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" Content="Text/html" charset="UTF8">
+<style>
+body{font-family:Arial;}
+nav{
+	background-color:red;
+	width:1000px;
+	margin:auto;
+}
+.list_ust{
+	float:left;
+	background-color:red;
+	height:58px;
+	border-right: 1px solid #df0000;
+	width:110px;
+	text-align:center;	
+	list-style:none;
+	font-weight:bold;
+}
+.list_ust ul{ 
+	display:none;
+	list-style:none;
+	float:left;
+	text-align:left;
+}
+.list_ust:hover ul{ 
+	display:block;
+}
+.menu_ust{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	margin-top:15px;
+}
+
+.list_ust:hover div{ 
+	background-color:#EBEBEB;
+}
+
+
+
+
+.arama{ 
+	float:left;
+	background-color:red;
+	color:#000; 
+	width:150px;
+	text-align:left;
+	padding-top:15px;
+	padding-left:10px;
+	height:43px;
+	width:114px;
+	list-style:none;
+}
+input{
+	width:90px;
+	border-width:0px;
+}
+img{vertical-align:bottom;}
+.listalt{
+	display:list-item;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+	<li class="list_ust"><a class="menu_ust" href="#">Kampanyalar</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">Cihazlar</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">Tarifeler</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">SüperNet</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">SüperNet ADSL&FİBER</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">Servisler</a></li>
+	<li class="list_ust"><a class="menu_ust" href="#">Yardım</a></li>
+	<li class="arama"><img src="search.png" width="18px" height="19px" /><input type="text"></input></li>
+</ul>
+</nav>	
+</body>
